@@ -24,11 +24,12 @@
 
 .content {
   text-align: center;
+  padding-bottom: 6rem;
 }
 .content h1 {
   font-family: "Tittle";
   font-size: 4.5em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #fff;
 }
 .content h1 span {
@@ -66,6 +67,17 @@
   .background-clip {
     width: auto;
     height: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .content {
+    font-size: 0.7em;
+  }
+  .content h1 {
+    margin-bottom: 5rem;
+  }
+  .content a {
+    font-size: 2em;
   }
 }
 /*------ mute_UnmuteStyles ------*/
