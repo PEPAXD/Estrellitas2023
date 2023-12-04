@@ -5,8 +5,8 @@ document.getElementById('mute-button').addEventListener('click', function() {
 document.getElementById('mute-button').addEventListener('change', function() {
     var status = document.getElementById('status');
     if(this.checked) {
-        status.textContent = 'Off';
-    } else {
         status.textContent = 'On';
+    } else {
+        status.textContent = 'Off';
     }
 });
